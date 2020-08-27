@@ -1,0 +1,35 @@
+.nav-container,.nav-list,
+.navigation{
+    @include display(flex);
+    align-items: center;
+}
+.nav-list .nav-list-item + .nav-list-item {
+    margin-left: 50px;
+  }
+  .nav-list-item:first-child {
+    margin-left: 70px;
+  }
+  .nav-list-link {
+    @include font(14px, 1.14, normal, 500);
+    letter-spacing: 0.02em;
+    color: $title-text-color;}
+    .nav-list-item{
+        @include position(relative);
+       
+    }
+    .current-link {
+        color: $accent-color;
+      
+      &::after {
+        content: "";
+        @include position(relative);
+        transform: translateY(27px);
+        @include display(block);
+        width: 100%;
+        height: 4px;
+        bottom: 0px;
+        left: 0px;
+        background-color: $accent-color;
+        border-radius: 2px;
+      }}
+      
