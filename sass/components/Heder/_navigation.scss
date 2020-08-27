@@ -23,7 +23,7 @@
       &::after {
         content: "";
         @include position(relative);
-        transform: translateY(27px);
+        transform: translateY(26px);
         @include display(block);
         width: 100%;
         height: 4px;
