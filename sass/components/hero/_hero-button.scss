@@ -1,8 +1,8 @@
 .hero-btn {
-@include display(inline-block);
+    display:inline-block;
     min-width: 200px;
     padding: 10px 32px;
-   @include font(16px, 1.85, normal, 700);
+   @include font(16px, 1.85, 700);
     text-align: center;
     letter-spacing: 0.06em;
     color: $primary-white-color;

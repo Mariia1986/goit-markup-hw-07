@@ -13,7 +13,7 @@
   .page-title {
     margin-top: 0;
     margin-bottom: 30px;
-    @include font(44px, 1.36, normal, 900);
+    @include font(44px, 1.36, 900);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;

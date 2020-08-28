@@ -1,6 +1,6 @@
 .nav-container,.nav-list,
 .navigation{
-    @include display(flex);
+     display:flex;
     align-items: center;
 }
 .nav-list .nav-list-item + .nav-list-item {
@@ -10,11 +10,11 @@
     margin-left: 70px;
   }
   .nav-list-link {
-    @include font(14px, 1.14, normal, 500);
+    @include font(14px, 1.14, 500);
     letter-spacing: 0.02em;
     color: $title-text-color;}
     .nav-list-item{
-        @include position(relative);
+         position:relative;
        
     }
     .current-link {
@@ -22,9 +22,9 @@
       
       &::after {
         content: "";
-        @include position(relative);
-        transform: translateY(26px);
-        @include display(block);
+         position:relative;
+        transform: translateY(25px);
+         display:block;
         width: 100%;
         height: 4px;
         bottom: 0px;

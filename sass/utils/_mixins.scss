@@ -1,13 +1,5 @@
-@mixin font( $fz, $lh, $fs:normal, $fw:400){
-   font-style: $fs;
-  font-weight: $fw;
+@mixin font( $fz, $lh, $fw:400){
+ font-weight: $fw;
   font-size: $fz;
   line-height: $lh;
 }
-@mixin display($style){
-    display: $style;
-}
-
-@mixin position($pos) {
-    position: $pos;
-   }
