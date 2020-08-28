@@ -45,9 +45,9 @@
   opacity: 0;
 }
 .modal-title {
-  @include font(20px, 1.15, 400);
+  @include font(20px, 1.15, 700);
   text-align: center;
-  color: var(--title-text-color);
+  color: $title-text-color;
   margin-bottom: 12px;
   margin-top: 0px;
 }
