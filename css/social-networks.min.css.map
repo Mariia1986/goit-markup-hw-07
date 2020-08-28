@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,sBAAsB,AAAC,CACnB,OAAO,CAAE,WAAW,CACpB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,kCAAkC,CACpD,aAAa,CAAE,GAAG,CAClB,UAAU,CAAE,KAAK,CAAC,4BAA4B,CAC/C,AACD,AAAA,sBAAsB,AAAA,MAAM,CAC5B,sBAAsB,AAAA,MAAM,AAAC,CAC3B,gBAAgB,CAAE,mBAAmB,CACtC,AACD,AAAA,oBAAoB,AAAC,CACnB,IAAI,CAAE,0BAA0B,CACjC",
-    "sources": [
-        "../sass/components/footer/social-networks.scss"
-    ],
-    "names": [],
-    "file": "social-networks.min.css"
-}
