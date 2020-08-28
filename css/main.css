@@ -661,4 +661,209 @@ body {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
 }
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 528px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #212121;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.close-modal:focus {
+  fill: #2196f3;
+}
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.modal-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.form-position {
+  position: relative;
+}
+
+.input-count {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 45px;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.input-count:focus,
+.input-count:focus.input-count + .input-icon {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+
+.label-form {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-name {
+  font-size: 12px;
+  line-height: 1.17;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea {
+  width: 448px;
+  resize: none;
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  outline: none;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.textarea:focus {
+  border-color: #2196f3;
+}
+
+.label-comment {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.label-checkbox {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.checkbox-icon-box {
+  display: inline-block;
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+  border: solid 2px #212121;
+}
+
+.check-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.checkbox:checked + .checkbox-icon-box > .check-icon,
+.checkbox:checked + .checkbox-icon-box {
+  opacity: 1;
+  fill: #f5f4fa;
+  background-color: #2196f3;
+  border: none;
+}
+
+.submit-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 200px;
+  min-height: 50px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.submit-btn:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.checkbox-text,
+.conditions {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.conditions {
+  color: #2196f3;
+}
 /*# sourceMappingURL=main.css.map */
