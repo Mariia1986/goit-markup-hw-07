@@ -12,7 +12,7 @@
     text-align: center;
     @include font( 16px, 1.19, 500);
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
   .profesion {
     text-align: center;
