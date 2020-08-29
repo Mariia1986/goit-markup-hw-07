@@ -341,6 +341,31 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url("../../fonts/Raleway/static/Raleway-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Roboto-Regular', sans-serif;
+  src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Roboto-Medium', sans-serif;
+  src: url("../../fonts/Roboto/Roboto-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Roboto-Bold', sans-serif;
+  src: url("../../fonts/Roboto/Roboto-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Roboto-Black', sans-serif;
+  src: url("../../fonts/Roboto/Roboto-Black.ttf") format("opentype");
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
